@@ -2,7 +2,7 @@
 A CPP code developed to solve 1D Bernoulli Euler beam problem in FEM using continuous Hermite-shape function.
 
 ### Phsical problem
-$u_{,xxxx} = l(x)$ on $\Sigma = (0,L)$ (transverse equilibrium)
+$u_{,xxxx} = l(x)$ on $\mathbf{\Omega} = (0,L)$ (transverse equilibrium)
 
 $u(L) = 0$ (zero transverse displacement)
 
@@ -10,7 +10,7 @@ $u_{,x}(L) = 0$ (zero slope)
 
 $EI u_{,xx}(0) = M$ (prescribed moment)
 
-$EI u_{,xxx}(0) = Q$ (prescribed shear
+$EI u_{,xxx}(0) = Q$ (prescribed shear)
 
 Notes: $E$ is Young's modulus and $I$ is the moment of inertia, both of which are assumed to be constant.
 
