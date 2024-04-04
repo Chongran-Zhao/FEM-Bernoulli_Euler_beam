@@ -10,7 +10,7 @@ SET(Eigen3_DIR CMAKE_INSTALL_PREFIX/share/eigen3/cmake)
 
 FIND_PACKAGE(Eigen3 3.3 REQUIRED NO_MODULE)
 
-INCLUDE_DIRECTORIES("/usr/include/eigen3")
+INCLUDE_DIRECTORIES("/opt/homebrew/include/eigen3")
 
 ADD_EXECUTABLE(Bernoulli_Euler_beam main.cpp Tools.cpp)
 
